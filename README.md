@@ -10,7 +10,6 @@ Os dados passaram por um processo de limpeza, padronização e validação no SQ
 
 O foco do projeto foi investigar padrões de localização dos arremessos, eficiência por região da zona de strike e características individuais de cada pitcher.
 
----
 
 ## Ferramentas Utilizadas
 
@@ -37,7 +36,7 @@ Entre as etapas realizadas:
 
 Toda a etapa de limpeza foi realizada utilizando SQL Server.
 
----
+
 
 ## Análises Desenvolvidas
 
@@ -79,7 +78,7 @@ Além das análises em Python, foi desenvolvido um dashboard interativo no Power
 
 ![Dashboard](powerbi_1.png)
 
----
+
 
 ## Principais Perguntas Investigadas
 
@@ -102,7 +101,7 @@ The dataset underwent data cleaning, standardization, and validation processes i
 
 The primary objective was to investigate pitch location patterns, strike zone effectiveness, and pitcher-specific characteristics.
 
----
+
 
 ## Tools Used
 
@@ -171,7 +170,7 @@ An interactive Power BI dashboard was developed to consolidate pitching metrics 
 
 ![Dashboard](powerbi_1.png)
 
----
+
 
 ## Key Questions Investigated
 
@@ -180,9 +179,3 @@ An interactive Power BI dashboard was developed to consolidate pitching metrics 
 * How does release point vary across pitch types?
 * What is the dominant pitch in each strike zone region?
 * Are there location patterns associated with pitching success?
-
----
-
-
-└── README.md
-
