@@ -221,7 +221,7 @@ SELECT COUNT(*) FROM tb_japan WHERE game_type = 'S';
 
 COMMIT;
 
--- caso dê problema
+-- caso dÃª problema
 -- ROLLBACK;
 
 
