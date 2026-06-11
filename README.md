@@ -41,31 +41,43 @@ Toda a etapa de limpeza foi realizada utilizando SQL Server.
 
 ## Análises Desenvolvidas
 
-### Release Point Analysis
+### Análise de release point
 
 Visualização do ponto de soltura dos arremessos de um pitcher específico, com opção de filtragem por tipo de arremesso e remoção de outliers.
 
-### Strike Zone Heatmap
+![Release Point](release_point.png)
+
+### Mapa de calor da zona de strike
 
 Mapa de calor demonstrando a frequência de arremessos em cada região da zona de strike.
 
-### Dominant Pitch by Zone
+![Heatmap](heatmap_zona_strike.png)
+
+### Pitch dominante por zona
 
 Identificação do arremesso mais utilizado em cada região da zona de strike.
 
-### Pitch Density Analysis (KDE)
+![Dominant Pitch](pitch_dominante.png)
+
+### Análise de densidade de arremesso (KDE)
 
 Visualização da densidade espacial dos arremessos utilizando estimativa de densidade por kernel (KDE).
 
-### Whiff Rate by Zone
+![Pitch Density](densidade_zona_strike.png)
+
+### Whiff Rate por zona
 
 Análise da taxa de swings no vazio (whiffs) por região da zona de strike.
+
+![Whiff Rate](whiff_zona.png)
 
 ---
 
 ## Dashboard Power BI
 
 Além das análises em Python, foi desenvolvido um dashboard interativo no Power BI para consolidar métricas e facilitar a exploração dos dados.
+
+![Dashboard](powerbi_1.png)
 
 ---
 
@@ -77,21 +89,6 @@ Além das análises em Python, foi desenvolvido um dashboard interativo no Power
 * Qual é o pitch dominante em cada região da zona?
 * Existem padrões claros de localização associados ao sucesso do arremessador?
 
----
-
-## Estrutura do Projeto
-
-MLB-Pitching-Analytics/
-
-├── sql/
-
-├── python/
-
-├── powerbi/
-
-├── images/
-
-└── README.md
 
 ---
 
@@ -140,27 +137,39 @@ All preprocessing was performed in SQL Server.
 
 Visualization of pitcher release points with optional pitch-type filtering and outlier removal.
 
+![Release Point](release_point.png)
+
 ### Strike Zone Heatmap
 
 Heatmap showing pitch frequency across different strike zone regions.
+
+![Heatmap](heatmap_zona_strike.png)
 
 ### Dominant Pitch by Zone
 
 Identification of the most frequently used pitch type in each strike zone area.
 
+![Dominant Pitch](pitch_dominante.png)
+
 ### Pitch Density Analysis (KDE)
 
 Spatial pitch density visualization using Kernel Density Estimation (KDE).
 
+![Pitch Density](densidade_zona_strike.png)
+
 ### Whiff Rate by Zone
 
 Analysis of swing-and-miss rates across strike zone regions.
+
+![Whiff Rate](whiff_zona.png)
 
 ---
 
 ## Power BI Dashboard
 
 An interactive Power BI dashboard was developed to consolidate pitching metrics and support data exploration.
+
+![Dashboard](powerbi_1.png)
 
 ---
 
@@ -174,17 +183,6 @@ An interactive Power BI dashboard was developed to consolidate pitching metrics 
 
 ---
 
-## Project Structure
-
-MLB-Pitching-Analytics/
-
-├── sql/
-
-├── python/
-
-├── powerbi/
-
-├── images/
 
 └── README.md
 
